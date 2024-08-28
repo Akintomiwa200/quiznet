@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Add this to your global CSS file */
+.group:hover .group-hover:inline {
+  display: inline;
+}
